@@ -58,3 +58,25 @@ body {
 }
 
 
+/* Showcase CSS */
+
+.showcase {
+
+ background: url("./images/mobile/image-header.jpg")
+ no-repeat center/cover;
+ height:512px
+
+}
+
+.showcase .overlay {
+
+    height:512px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+
+
+}

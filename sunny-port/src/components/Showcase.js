@@ -10,8 +10,10 @@ const Showcase = () => {
         <section className="showcase">
         
         <div className="overlay">
-        <h1>WE ARE CREATIVES</h1>
+        <h1 className=" text-4xl text-white tracking-widest">WE ARE CREATIVES</h1>
         <img src={arrow} alt=""/>
+
+
 
         
         
