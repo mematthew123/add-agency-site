@@ -75,8 +75,19 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
 
-    
+@media (min-width:768px){
+    .showcase {
 
+        background: url("./images/desktop/image-header.jpg")
+        no-repeat center/cover;
+        height:512px
+    }
 
 }
+
+/* .btn-trasnform{
+
+    
+} */

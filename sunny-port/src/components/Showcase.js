@@ -11,7 +11,7 @@ const Showcase = () => {
         
         <div className="overlay">
         <h1 className=" text-4xl text-white tracking-widest">WE ARE CREATIVES</h1>
-        <img src={arrow} alt=""/>
+        <img src={arrow} alt="" className="mt-20"/>
 
 
 
