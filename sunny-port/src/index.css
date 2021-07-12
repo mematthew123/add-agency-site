@@ -45,11 +45,13 @@ p{
 
    font-size: 18px;
     line-height: 1.5;
+    color:var(--very-dark-grayish-blue)
 }
 
 
 h1,h2,h3,h4,h5,h6{
     font-family: "Fraunces", sans-serif;
+    color:var(--very-dark-desaturated-blue)
 }
 
 body {
@@ -87,7 +89,21 @@ body {
 
 }
 
-/* .btn-trasnform{
+/* buttons */
 
-    
-} */
+.btn-trasnform{
+
+    text-transform: uppercase;
+    border-bottom: 5px solid var(--yellow);
+    color: var(--very-dark-desaturated-blue);  
+    font-family: "Fraunces", sans-serif;
+} 
+
+.btn-standout{
+
+    text-transform: uppercase;
+    border-bottom: 5px solid var(--soft-red);
+    color: var(--very-dark-desaturated-blue);  
+    font-family: "Fraunces", sans-serif;
+
+} 
