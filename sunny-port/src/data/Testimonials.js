@@ -5,7 +5,7 @@ export const testimonials = [
         name:"Emily R",
         desc:"We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.",
         title: "Marketing Director",
-        image: "./images/image-emily.jpg"
+        image: "./images/image-emily.jpg",
         
         
 
@@ -13,10 +13,10 @@ export const testimonials = [
 
     {
         id:2,
+        image: "./images/image-thomas.jpg",
         name:"Thomas S",
         desc:"Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.",
         title: "Chief Operating Officer",
-        image: "./images/image-thomas.jpg"
 
         
 
@@ -29,8 +29,5 @@ export const testimonials = [
         title: "Business Owner",
         image: "./images/image-jennie.jpg"
 
-
     },
-
-
 ]
