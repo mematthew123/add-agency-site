@@ -18,7 +18,7 @@ const Testimonials = () => {
               <img
                 src={image}
                 alt={name}
-                className="w-20 rounded-full block mx-auto mt-10 mb-5"
+                className="w-15 rounded-full block mx-auto mt-10 mb-5"
               />
               <p className="text-center mb-5">{desc}</p>
               <h4 className="text-center">{name}</h4>

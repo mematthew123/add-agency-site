@@ -5,6 +5,9 @@ import Showcase from "./components/Showcase"
 import StandOut from "./components/StandOut"
 import Transform from "./components/Transform"
 import Testimonials from"./components/Testimonials"
+import GridMobile from "./components/GridMobile"
+import GridDesktop from "./components/GridDesktop"
+import{gridDesktop} from"./data/grid"
 
 const App = () =>{
   return (
@@ -23,6 +26,12 @@ const App = () =>{
   </div>
 
   <Testimonials/>
+  <div>
+<GridMobile/>
+</div>
+<div>
+<GridDesktop/>
+</div>
 
   </>
 
