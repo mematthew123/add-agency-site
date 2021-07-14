@@ -9,7 +9,7 @@ const GridDesktop = () => {
     const [cards,setCards] = useState (gridDesktop)
     return (
         <>
-        <section>
+        <section className="grid grid-cols-4">
         {cards.map(({id,image})=>(
 
             <article key= {id}>
