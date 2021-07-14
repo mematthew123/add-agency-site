@@ -9,7 +9,7 @@ const GridMobile = () => {
     const [cards,setCards] = useState (gridMobile)
     return (
         <>
-        <section ClassName="py-20">
+        <section ClassName="grid grid-cols-2">
         {cards.map(({id,image})=>(
 
             <article key= {id}>
