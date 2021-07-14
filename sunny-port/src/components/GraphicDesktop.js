@@ -11,7 +11,7 @@ const GraphicDesktop = () => {
     return (
         <>
 
-        <section className= "graphic md:flex items-center justify-center">
+        <section className= "graphic md:flex items-center  justify-center">
         {cards.map(({id, image,title,text})=>(
 
 
