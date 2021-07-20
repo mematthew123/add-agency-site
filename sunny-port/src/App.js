@@ -12,10 +12,10 @@ const App = () => {
   return (
     <>
 
-      <Header />
-      <Showcase />
-      <Transform />
-      <StandOut />
+      <Header/>
+      <Showcase/>
+      <Transform/>
+      <StandOut/>
       <div className="block md:hidden">
         <GraphicMobile />
       </div>
