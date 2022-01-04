@@ -1,23 +1,13 @@
-import React from 'react'
 import menu from "../images/icon-hamburger.svg"
 
-
-
-
-const MenuButton = () => {
-    return (
-     
-<>
-
-<button>
-<img scr= {menu} alt=""/>
-
-</button>
-
-</>
-
-
-    )
+const MenuButton = ({ isOpen, setIsOpen }) => {
+  return (
+    <>
+      <button onClick={() => setIsOpen(!isOpen)}>
+        <img src={menu} alt="" />
+      </button>
+    </>
+  )
 }
 
 export default MenuButton

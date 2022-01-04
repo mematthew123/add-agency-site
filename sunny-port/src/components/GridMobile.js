@@ -1,32 +1,21 @@
-import {gridMobile}  from "../data/grid"
-import {useState} from 'react'
-
-import React from 'react'
+import { useState } from "react"
+import { gridMobile } from "../data/grid"
 
 const GridMobile = () => {
+  // eslint-disable-next-line
+  const [cards, setCards] = useState(gridMobile)
 
-    // eslint-disable-next-line no-unused-vars
-    const [cards,setCards] = useState (gridMobile)
-    return (
-        <>
-        <section ClassName="grid grid-cols-2">
-        {cards.map(({id,image})=>(
-
-            <article key= {id}>
-            <img src={image} alt=""/>
-
-            
-            
-            
-            </article>
-
-
+  return (
+    <>
+      <section className="grid grid-cols-2">
+        {cards.map(({ id, image }) => (
+          <article key={id}>
+            <img src={image} alt="" />
+          </article>
         ))}
-        
-        </section>
-            
-        </>
-    )
+      </section>
+    </>
+  )
 }
 
 export default GridMobile

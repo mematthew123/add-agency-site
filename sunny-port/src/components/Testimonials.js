@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { testimonials } from "../data/Testimonials"
+import { testimonials } from "../data/testimonials"
 
 const Testimonials = () => {
   // eslint-disable-next-line
@@ -15,15 +15,15 @@ const Testimonials = () => {
         <div className="md:grid grid-cols-2 gap-5 lg:grid-cols-3 xl:max-w-6xl xl:mx-auto">
           {people.map(({ id, image, name, desc, title }) => (
             <article key={id}>
-             
-            <img src={image} alt={name} className="w-10 rounded-full block mx-auto mt-10 mb-5"/>
+              <img
+                src={image}
+                alt={name}
+                className="w-20 rounded-full block mx-auto mt-10 mb-5"
+              />
               <p className="text-center mb-5">{desc}</p>
-           
               <h4 className="text-center">{name}</h4>
-           
               <small className="block text-center">{title}</small>
-            
-              </article>
+            </article>
           ))}
         </div>
       </section>

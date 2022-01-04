@@ -1,32 +1,21 @@
-import {gridDesktop}  from "../data/grid"
-import {useState} from 'react'
-
-import React from 'react'
+import { useState } from "react"
+import { gridDesktop } from "../data/grid"
 
 const GridDesktop = () => {
+  // eslint-disable-next-line
+  const [cards, setCards] = useState(gridDesktop)
 
-    // eslint-disable-next-line no-unused-vars
-    const [cards,setCards] = useState (gridDesktop)
-    return (
-        <>
-        <section className="grid grid-cols-4">
-        {cards.map(({id,image})=>(
-
-            <article key= {id}>
-            <img src={image} alt=""/>
-
-            
-            
-            
-            </article>
-
-
+  return (
+    <>
+      <section className="grid grid-cols-4">
+        {cards.map(({ id, image }) => (
+          <article key={id}>
+            <img src={image} alt="" />
+          </article>
         ))}
-        
-        </section>
-            
-        </>
-    )
+      </section>
+    </>
+  )
 }
 
 export default GridDesktop
